@@ -1,0 +1,206 @@
+*{
+    font-family: 'Sriracha', cursive;
+}
+.card-img-top{
+    max-height: 250px;
+}
+
+.candidate_card .row{
+    justify-content: center;
+    align-items: baseline;
+}
+.center{
+    text-align: center;
+}
+
+.candidate_table th{
+    padding-right: 10px;
+    background: white;
+    box-sizing: border-box;
+    text-align: left;
+}
+.candidate_table td{
+    padding-left: 10px;
+}
+.candidate_table{
+    padding-bottom: 10px
+}
+.btn-default{
+    background-color: #efefef;
+}
+
+.bg-grey{
+    background-color: #efefef;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.navbar{
+    background-color: #5e72e4;
+    color: #ffffff;
+}
+.nav_title{
+    
+    color: #ffffff !important;
+}
+.error_card{
+    box-sizing: border-box;
+    border: red dashed 3px;
+}
+
+.blink_me {
+    animation: blinker 2s linear infinite;
+
+  }
+  
+  @keyframes blinker {
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    0% {
+      opacity: 1;
+    }
+  }
+  
+ /* toottip */
+ 
+    .c_tooltip {
+      position: relative;
+    }
+    
+    .c_tooltip .c_tooltiptext {
+      visibility: hidden;
+        
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 5px;
+      
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      margin-left: -60px;
+    }
+    
+    .c_tooltip:hover .c_tooltiptext {
+      visibility: visible;
+    }
+
+  .card_title{
+    text-align: center;
+    font-weight: 700!important;
+    color: black;
+  }
+.chatcard{
+  position: absolute;
+  top: 20px;
+  right: -185px;
+  z-index: 2;
+  width: 200px;
+  height: auto;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+  bottom: 20px;
+}
+.bottom_input{
+  bottom: 0;
+  position: absolute;
+  background-color: aliceblue;
+}
+.chatmsg{
+  overflow-x: auto;
+  height: 60%;
+}
+
+.allchatcard {
+  width: 300px;
+  height: 400px;
+  border: none;
+  border-radius: 15px
+}
+
+.chatbody {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
+
+.adiv {
+  background: #04CB28;
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 14px;
+  height: 46px
+}
+
+.me {
+  border: none;
+  background: #E2FFE8;
+  font-size: 13px;
+  border-radius: 20px;
+  float: left;
+  margin-top: 4px;
+  padding: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 90%;
+}
+
+.other {
+  text-align: end;
+  float: right;
+  border: 1px solid #E7E7E9;
+  font-size: 13px;
+  border-radius: 20px;
+  margin-top: 4px;
+  padding: 7px;
+  width: 90%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.myvideo img {
+  border-radius: 20px
+}
+
+.dot {
+  font-weight: bold
+}
+
+.form-control {
+  border-radius: 12px;
+  border: 1px solid #F0F0F0;
+  font-size: 12px
+}
+
+.form-control:focus {
+  box-shadow: none
+}
+
+.form-control::placeholder {
+  font-size: 12px;
+  color: #C4C4C4
+}
+
+.msgbox {
+  height: 230px;
+  overflow-x: auto;
+}
+
+.msg_input_container {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.msg_input_box {
+  border: solid 1px blue;
+
+}
